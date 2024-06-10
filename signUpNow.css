@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing:border-box;
+}
+
+body{
+    background:#000;
+
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    background: url("US-en-20240603-popsignuptwoweeks-perspective_alpha_website_large.jpeg");
+    background-position: center;
+    z-index:-1;
+    padding: 10px 8%;
+}
+
+/*.banner {
+    width:100%;
+    height:100vh;
+    background: url("US-en-20240603-popsignuptwoweeks-perspective_alpha_website_large.jpeg");
+    background-size:cover;
+    background-position:center;
+    padding:10px 8%;
+    position:relative;
+}
+*/
+
+.logo{
+    width:160px;
+    cursor:pointer;
+}
+
+
+nav{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:10px 0;
+}
+
+
+nav button{
+    border:0;
+    outline:0;
+    background:#db0001 ;
+    color:#fff;
+    padding:7px 20px;
+    font-size:12px;
+    border-radius:4px;
+    margin-left:10px;
+    cursor:pointer;
+
+}
+
+
+
+.language-btn{
+    display:inline-flex;
+    align-items:center;
+    background:transparent;
+    border:1px solid #fff;
+    padding:7px 10px;
+}
+
+.language-btn img{
+    width:20px;
+    margin-left:10px; /*space between the text and image*/
+
+}
+
+.content{
+    color:#fff;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+    margin-top:100px;
+
+}
+
+.content h1{
+    font-size:60px;
+    line-height:70px;
+    font-weight:600;
+    max-width:600px;
+
+}
+
+.content h3{
+    font-weight:400;
+    margin-bottom:20px;
+}
+
+.email-signup{
+    background:white;
+    border-radius:4px;
+    display:flex;
+    align-items:center;
+    margin-top:20px;
+    overflow:hidden;
+
+}
+
+.email-signup input{
+    flex:1;
+    border:0;
+    outline:0;
+    margin-left:20px ;
+}
+
+.email-signup button{
+    background:#db0001;
+    border:0;
+    outline:0;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+    padding:15px 30px;
+}
