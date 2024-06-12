@@ -1,0 +1,245 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing:border-box;
+}
+
+.logo{
+    width:140px;
+    cursor:pointer;
+}
+
+.logo-side{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:10px 0;
+}
+
+
+
+nav{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:2px 0;
+    
+}
+
+.navbar{
+    background:black;
+    color:#fff
+}
+
+.signIn-btn{
+    border:0;
+    outline:0;
+    background:#db0001 ;
+    color:#fff;
+    padding:7px 20px;
+    font-size:12px;
+    border-radius:4px;
+    margin-left:10px;
+    cursor:pointer;
+    font-size:15px;
+    font-weight:bold;
+    
+
+}
+
+.joinNetflix-btn{
+    display:inline-flex;
+    align-items:center;
+    background:transparent;
+    border:1px solid #fff;
+    padding:7px 10px;
+    color:#fff;
+    font-size:15px;
+    font-weight:bold;
+}
+
+.navbar p{
+    font-size:30px;
+}
+.navbar a{
+    text-decoration: none;
+    font-size:20px;
+    color:#fff;
+
+}
+
+.help-link{
+    
+    padding:35px 50px;
+}
+
+.arrow{
+    width:15px;
+}
+
+.help-link a{
+    text-decoration:none;
+    color:black;
+    font-size:15px;
+    font-weight:300;
+
+}
+
+.help-link:hover{
+    text-decoration:underline;
+    color:grey;
+}
+
+
+.img1{
+    margin-top:30px;
+    width:800px;
+
+}
+
+
+
+.first-content{
+    margin:20px 15px;
+    padding:0 50px;
+    float:left;
+    width:50%;
+}
+
+.articles{
+    width:11em;
+    border: 2px solid lightgrey;
+    float:right;
+    width:30%;
+    border-top: 4px solid red;
+    padding:15px 20px;
+    position:unset;
+    
+    
+
+}
+
+.first-content p{
+    margin-top:15px;
+    line-height:1.5;
+    
+}
+
+.articles a{
+    
+    text-decoration: underline;
+    color:black;
+    font-size:18px;
+    margin-bottom:10px;
+    
+}
+
+.articles p{
+    margin-bottom:10px;
+}
+
+.img2{
+    margin-top:30px;
+    width:920px;
+    padding:0 50px;
+}
+
+.second-content p{
+    margin:20px 15px;
+    padding:0 50px;
+    line-height:1.5;
+}
+
+.img3{
+    margin-top:30px;
+    width:940px;
+    
+}
+
+.third-content{
+    margin:20px 15px;
+    padding:0 50px;
+}
+
+.third-content p{
+    line-height:1.5;
+}
+
+.img4{
+    margin-top:30px;
+    width:940px;
+    
+}
+
+.fourth-content{
+    margin:20px 15px;
+    padding:0 50px;
+}
+
+.fourth-content p{
+    line-height:1.5;
+}
+
+.img5{
+    margin-top:30px;
+    width:940px;
+    
+}
+
+.fifth-content{
+    margin:20px 15px;
+    padding:0 50px;
+}
+
+.fifth-content p{
+    line-height:1.5;
+}
+
+.fifth-content ol{
+    padding: 20px 25px;
+}
+
+.fifth-content li{
+    margin-bottom:10px;
+}
+
+
+
+.feedback p{
+    margin-top:30px;
+    margin-bottom:50px;
+    padding:0 50px;
+
+}
+
+.footer{
+    background:rgb(10, 2, 2);
+}
+
+.help{
+    display:flexbox;
+    align-items:center;
+    justify-content:space-between;
+    padding:2px 0;
+
+}
+
+.help p{
+    color:white;
+    font-size:18px;
+}
+
+.contactUs-btn{
+    background:white;
+    color:black;
+    font-weight:bold;
+}
+
+.contactUs-btn:hover{
+    color:lightgray;
+}
+
+.footer{
+    margin-right:10px;
+}
