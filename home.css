@@ -21,7 +21,7 @@ body::before {
     height: 100%;
     background: url("US-en-20240603-popsignuptwoweeks-perspective_alpha_website_large.jpeg");
     background-position: center;
-    padding:200px 50px 200px 50px ;
+    padding-top:70px ;
 }
 
 nav {
@@ -40,7 +40,7 @@ nav {
     left: 50%;
     top: 50%;
     border-radius: 4px;
-    padding: 70px;
+    padding:70px 50px;
     width: 450px;
     transform: translate(-50%, -50%);
     background: rgba(0, 0, 0, .75);
