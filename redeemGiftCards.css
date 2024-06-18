@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap");
+
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background:black;
+}
+
+body::before{
+    content:"";
+    position:absolute;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(US-en-20240603-popsignuptwoweeks-perspective_alpha_website_large.jpeg);
+    background-position:center;
+    width:100%;
+    height:100%;
+    z-index: -1;
+
+}
+
+.logo{
+    width:140px;
+
+}
+
+.signIn-btn{
+    background-color:#e50914;;
+    color:white;
+    font-size:16px;
+    font-weight: 400;
+    line-height: normal;
+    margin: 18px 3% 0;
+    padding: 7px 17px;
+    border-radius: 4px;
+    outline:0;
+    border:0;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    padding-top:30px;
+    margin-left:40px;
+
+}
+
+.content h1, h3, button, p{
+    color:white;
+    margin-left:40px;
+
+}
+
+h1{
+    font-size:50px;
+    margin-bottom:15px;
+    margin-top:50px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.1em;
+    text-shadow: 1px 1px 10px #000;
+}
+
+h3{
+    font-size:18px;
+    margin-bottom:10px;
+
+}
+
+.code-input{
+    height: 48px;
+    width: 15%;
+    background-color: rgba(0, 0, 0, .8);
+    border-color: #737373;
+    color: #fff;
+    font-size:1rem;
+    margin-left:40px;
+    border:none;
+    outline:none;
+    border:2px solid #737373;
+    padding: 0 20px;
+}
+
+.redeem-btn{
+    background-color:#e50914;
+    color:#fff;
+    font-size:20px;
+    width:14%;
+    outline:none;
+    border:none;
+    padding:8px 20px;
+}
+
+.redeem-btn:hover{
+    background:rgb(248, 9, 9);
+}
+
+.buy-gift-cards-btn{
+    background-color:#737373;
+    color:#fff;
+    font-size:20px;
+    width:18%;
+    padding:8px 20px;
+    border:none;
+    outline:none;
+    margin-bottom:20px;
+
+}
+
+.buy-gift-cards-btn:hover{
+    background:rgb(146, 143, 143);
+}
+
+.p1{
+    margin-bottom:20px;
+    
+    
+    
+
+}
+
+.p1 a{
+    color:#b3b3b3;
+    text-decoration:none;
+}
+
+small {
+    color:#b3b3b3;
+    margin-left:40px;
+    
+}
+
+small a{
+    text-decoration:none;
+}
+
+small a:hover{
+    text-decoration:underline;
+}
+
+.p1 a:hover{
+    text-decoration:underline;
+    color:#b3b3b3;
+}

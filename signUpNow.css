@@ -89,35 +89,35 @@ nav button{
 
 }
 
+
 .content h1{
     font-size:60px;
     line-height:70px;
     font-weight:600;
     max-width:600px;
+    margin-bottom:20px;
 
 }
 
 .content h3{
     font-weight:400;
     margin-bottom:20px;
+    font-size:26px;
 }
 
-.email-signup{
-    background:white;
-    border-radius:4px;
-    display:flex;
-    align-items:center;
-    margin-top:20px;
-    overflow:hidden;
-
-}
 
 .email-signup input{
-    flex:1;
-    border:0;
-    outline:0;
-    margin-left:20px ;
-    
+    height: 48px;
+    width: 60%;
+    background-color: rgba(31, 29, 29, 0.8);
+    border-color: #666262;
+    color: #fff;
+    font-size:1rem;
+    margin-left:40px;
+    border:none;
+    outline:none;
+    border:2px solid #737373;
+    padding: 0 20px;
 }
 
 .email-signup button{
@@ -130,6 +130,10 @@ nav button{
     padding:15px 30px;
 }
 
+.content p{
+    margin-bottom:20px;
+    font-size:20px;
+}
 
 
 
@@ -139,6 +143,7 @@ nav button{
 .features{
     padding: 50px 12%;
     font-size:22px;
+    margin:auto;
 }
 
 .row{
@@ -233,6 +238,7 @@ input[type="radio"]{
     max-height:0;
     overflow:hidden;
     transition: max-height 0.5s, padding 0.5s;
+    font-size:18px;
 
 }
 
