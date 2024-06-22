@@ -26,9 +26,10 @@ body::before {
 }
 
 nav {
-    position: fixed;
+    position:sticky;
     padding: 25px 60px;
     z-index: 1;
+    margin-bottom:50%;
 }
 
 .logo {
@@ -212,8 +213,7 @@ form .form-help :where(label, a) {
 /*Footer*/
 
 .footer{
-    padding: 50px 15% 10px;
-    border-top: 6px solid #333;
+    padding: 50px 10% 10px;
     color: #777;
 }
 
@@ -227,25 +227,39 @@ form .form-help :where(label, a) {
     flex-basis:25%;
     flex-grow:1;
     margin-bottom:20px;
+    margin-right:180px;
+    
 }
 
 .footer .col a{
     display:block;
     text-decoration: underline;
-    color:#777;
+    color:#dfd9d9;
     font-size:14px;
-    margin-bottom:10px;
+    margin-bottom:20px;
+    
+
+
 }
 
 .footer .row{ /*ensures that each column in the row will start at the same position at the top*/
     align-items:flex-start;
     padding:10px 0;
+    display:inline-flex;
 }
 
 .footer .language-btn{
     color:#fff;
+    background-color: rgba(20, 19, 19, 0.363);
     padding: 10px 20px;
     border-radius:3px;
+    border:1px solid white;
+    outline:none;
+}
+
+.down-icon{
+    width:8px;
+    margin-left:5px;
 }
 
 .copyright-text{
@@ -254,8 +268,15 @@ form .form-help :where(label, a) {
     margin-bottom:10px;
 }
 
+.collapse{
+    background-color: rgba(20, 19, 19, 0.363);
+    border:none;
+    outline:none;
+    font-size:14px;
+}
 
-.please{
-    color:white;
-    font-size:12px;
+.more-info-text{
+    color: #b3b3b3;
+    font-size:13px;
+    margin-top:10px;
 }

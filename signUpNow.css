@@ -141,9 +141,9 @@ nav button{
 
 
 .features{
-    padding: 50px 12%;
+    padding:12% 10px;
     font-size:22px;
-    margin:auto;
+    margin:0;
 }
 
 .row{
@@ -151,12 +151,13 @@ nav button{
     width:100%;
     align-items:center;
     flex-wrap:wrap;
-    padding:50px 0;
+    padding:20px 80px;
 }
 
 .text-col{
     flex-basis:50%;
-    margin-bottom:20px;
+    margin-bottom:10px;
+    padding:40px 50px;
 }
 
 .img-col{

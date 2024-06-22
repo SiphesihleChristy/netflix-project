@@ -33,10 +33,12 @@ body::before{
     font-weight: 400;
     line-height: normal;
     margin: 18px 3% 0;
-    padding: 7px 17px;
+    padding: 12px 17px;
+    width:90px;
     border-radius: 4px;
     outline:0;
     border:0;
+    margin-right:20px;
 }
 
 nav{

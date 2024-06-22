@@ -12,7 +12,7 @@
     <nav>
         <img class="logo" src="Netflix_Logo_PMS (1).png" alt="Netflix logo">
 
-        <button class="signIn-btn">Sign In</button>
+        <a href="home.html"><button class="signIn-btn">Sign In</button></a>
     </nav>
 
 </div>
@@ -23,12 +23,12 @@
 
     <div class="code">
     <input type="text" id="id-code" placeholder="Code or Pin" name="code" class="code-input" required>
-    <label for="id-code" class="placeLabel"></label>
+    <label class="placeLabel"></label>
     </div>
 
     <br><br>
     
-    <button class="redeem-btn" >Redeem</button>
+    <button class="redeem-btn" id="R-btn" type="submit">Redeem</button>
     <br><br>
     <button class="buy-gift-cards-btn">Buy Gift Cards</button>
 
@@ -41,6 +41,8 @@
     </small>
 
 </div>
+
+<script src="redeemGiftCards.js"></script>
     
 </body>
 </html>

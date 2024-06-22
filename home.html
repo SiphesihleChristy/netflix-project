@@ -15,14 +15,14 @@
         <h2>Sign In</h2>
         <form action="#">
             <div class="form-control">
-                <input type="text" required>
+                <input id="user-email" type="text" required>
                 <label>Email or phone number</label>
             </div>
             <div class="form-control">
-                <input type="password" required>
+                <input id="user-password" type="password" required>
                 <label>Password</label>
             </div>
-            <button class="button1" type="submit">Sign In</button>
+            <button class="button1" id="sign-in-btn" type="submit">Sign In</button>
             <br>
             <p class="or" >OR</p>
             <button class="button2" type="submit">Use a Sign-In code</button>
@@ -42,15 +42,51 @@
         
         <small>
             This page is protected by Google reCAPTCHA to ensure you're not a bot. 
-            <a href="#" id="learn-more">Learn more.</a>
+            <button type="button" class="collapse"><a id="learn-more">Learn more.</a></button>
         </small>
-        
-        
+
+        <div id="learn-more-text" class="more-info-text">
+            
+        </div>
+
+    
     </div>
     
+<div class="footer">
+    <h2>Questions? call 0 801-000-723</h2>
 
+    <div class="row">
+        <div class="col" >
+            <a href="FAQ.html">FAQ</a>
+            <a href="https://www.netflix.com/login#">Cookie Preferences</a>
+            
+        </div>
 
+        <div class="col">
+            <a href="https://help.netflix.com/">Help Center</a>
+            <a href="https://help.netflix.com/legal/corpinfo">Corporate Information</a>
+            
+        </div>
 
+        <div class="col" >
+            <a href="https://help.netflix.com/legal/termsofuse">Terms of Use</a>
+            
+        </div>
+
+        <div class="col">
+            <a href="https://help.netflix.com/legal/privacy">Privacy</a>
+            
+        </div>
+
+    
+    </div>
+
+    <button class="language-btn">  English <img class="down-icon" src="down-icon.png"></button>
+    <p class="copyright-text">Netflix South Africa</p>
+
+</div>
+
+    <script src="home.js"> </script>
 
 
 </body>
